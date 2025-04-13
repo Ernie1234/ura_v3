@@ -60,7 +60,9 @@ export async function getBusiness(
         category: true,
       },
       orderBy: {
-        createdAt: "desc",
+        products: {
+          _count: "desc",
+        },
       },
       where: {
         OR: [

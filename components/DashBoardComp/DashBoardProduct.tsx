@@ -25,6 +25,7 @@ export interface IBusiness {
     description: string;
     businessId: string;
     userId: string;
+    createdAt: Date;
   }[];
 }
 
@@ -49,14 +50,19 @@ const DashBoardProduct = ({ business }: DashBoardProductProps) => {
     );
   }
 
-  // const handleViewProfile = (id: string) => {
-  //   // Save the business ID to local storage
-  //   localStorage.setItem("businessId", id);
-  // };
+  const sortedBusinesses = [...business].sort((a, b) => {
+    const newestProductA = a.products[0]?.createdAt || new Date(0);
+    const newestProductB = b.products[0]?.createdAt || new Date(0);
+    return (
+      new Date(newestProductB).getTime() - new Date(newestProductA).getTime()
+    );
+  });
+
+  console.log("sorted business: ", sortedBusinesses);
 
   return (
     <div className="flex flex-col gap-12 bg-white p-4 border rounded-lg">
-      {business.map((business) => (
+      {sortedBusinesses.map((business) => (
         <div key={business.id} className="space-y-3 w-full">
           <div className="flex justify-between">
             <div className="flex gap-3 items-center">

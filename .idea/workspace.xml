@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b8ec1f-74c1-4b7a-a4fe-6fb1fdfc18ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,10 +13,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2tqqls3mFkEhV5XeWCaXVYTVaCo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,10 +26,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/THINKPAD E14/OneDrive/Desktop/Opex PLC/regtech_fe_v2",
+    "last_opened_file_path": "C:/Users/THINKPAD E14/OneDrive/Desktop/airbnb-js-api",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,10 +60,22 @@
       <option name="presentableId" value="Default" />
       <updated>1741090111265</updated>
       <workItem from="1741090113897" duration="203000" />
+      <workItem from="1741788955437" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
